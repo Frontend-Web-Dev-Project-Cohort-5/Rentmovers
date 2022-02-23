@@ -25,6 +25,21 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Properties
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Profile
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  About us
+                </a>
+              </li>
+              {/* <li className="nav-item">
                 <a Name="nav-link" href="#">
                   Link
                 </a>
@@ -70,12 +85,14 @@ function Navbar() {
                 >
                   Disabled
                 </a>
-              </li>
+              </li> */}
             </ul>
-            {/* <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form> */}
+            <form className="d-flex">
+              {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"> */}
+              <button className="btn btn-outline-success" type="submit">
+                LOG IN
+              </button>
+            </form>
           </div>
         </div>
       </nav>

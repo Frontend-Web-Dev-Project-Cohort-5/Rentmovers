@@ -1,5 +1,14 @@
 
 
+function Hero ()={
+    return (
+    <>
+    
+    
+    </>
+    )
+}
+
 
 
 

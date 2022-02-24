@@ -1,5 +1,8 @@
 import React from "react";
 import Ikoyirm from "../media/Ikoyirm.png";
+import Virm from "../media/Virm.png";
+import lekkirm from "../media/lekkirm.png";
+import ajahrm from "../media/ajahrm.png";
 
 function Available() {
   return (
@@ -13,13 +16,13 @@ function Available() {
             <img src={Ikoyirm} alt="IKOYI" />
           </div>
           <div className="col">
-            <img src={Ikoyirm} alt="VI" />
+            <img src={Virm} alt="VI" />
           </div>
           <div className="col">
-            <img src="" alt="LEKKI" />
+            <img src={lekkirm} alt="LEKKI" />
           </div>
           <div className="col">
-            <img src="" alt="AJAH" />
+            <img src={ajahrm} alt="AJAH" />
           </div>
         </div>
       </div>

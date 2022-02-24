@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Teams = () => {
-  return (
+export const Teams = 
       [
           {
           id: 1,
@@ -39,8 +38,6 @@ const Teams = () => {
 
       }
     ]
-    
-  )
-}
+
 
 export default Teams

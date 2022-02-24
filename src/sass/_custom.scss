@@ -1,0 +1,11 @@
+$myPriText: rgba(12, 12, 12);
+$mySecText: white;
+$myBtn: purple;
+$myFooterBg: brown;
+
+@mixin Font {
+  font-family: poppins;
+  font-size: medium;
+  color: $myPriText;
+  font-weight: 200;
+}

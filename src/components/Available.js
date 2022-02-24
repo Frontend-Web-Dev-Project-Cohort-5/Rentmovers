@@ -14,15 +14,15 @@ function Available() {
         <div className="row">
           <div className="col card text-dark">
             <img src={Ikoyirm} className="card-img" alt="IKOYI" />
-            <div class="card-img-overlay">
-              <h5 class="card-title text-center ">IKOYI</h5>
+            <div className="card-img-overlay">
+              <h5 className="card-title text-center ">IKOYI</h5>
             </div>
           </div>
 
           <div className="col card text-dark">
             <img src={Virm} className="card-img" alt="VI" />
-            <div class="card-img-overlay">
-              <h5 class="card-title text-center ">VI</h5>
+            <div className="card-img-overlay">
+              <h5 className="card-title text-center ">VI</h5>
             </div>
           </div>
 
@@ -39,7 +39,6 @@ function Available() {
               <h5 class="card-title text-center ">AJAH</h5>
             </div>
           </div>
-
         </div>
       </div>
 

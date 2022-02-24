@@ -13,7 +13,7 @@ function Available() {
             <img src={Ikoyirm} alt="IKOYI" />
           </div>
           <div className="col">
-            <img src="" alt="VI" />
+            <img src={Ikoyirm} alt="VI" />
           </div>
           <div className="col">
             <img src="" alt="LEKKI" />

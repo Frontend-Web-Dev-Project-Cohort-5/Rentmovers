@@ -1,10 +1,11 @@
+import Rmlogo1 from "../media/Rmlogo1.png";
 function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Rent Movers
+            <img src={Rmlogo1} alt="Rentmovers log" />
           </a>
           <button
             className="navbar-toggler"
@@ -29,11 +30,11 @@ function Navbar() {
                   Properties
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   Profile
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   About us
@@ -86,10 +87,16 @@ function Navbar() {
                   Disabled
                 </a>
               </li> */}
-
-              <button className="btn btn-outline-success" type="submit">
-                LOG IN
-              </button>
+              <li>
+                <button className="btn btn-outline-success" type="submit">
+                  LOG IN
+                </button>
+              </li>
+              <li>
+                <button className="btn btn-outline-success" type="submit">
+                  SIGN UP
+                </button>
+              </li>
             </ul>
           </div>
         </div>

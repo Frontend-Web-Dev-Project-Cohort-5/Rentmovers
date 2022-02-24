@@ -28,15 +28,15 @@ function Available() {
 
           <div className="col card text-dark">
             <img src={lekkirm} className="card-img" alt="LEKKI" />
-            <div class="card-img-overlay">
-              <h5 class="card-title text-center ">LEKKI</h5>
+            <div className="card-img-overlay">
+              <h5 className="card-title text-center ">LEKKI</h5>
             </div>
           </div>
 
           <div className="col card text-dark">
             <img src={ajahrm} className="card-img" alt="AJAH" />
-            <div class="card-img-overlay">
-              <h5 class="card-title text-center ">AJAH</h5>
+            <div className="card-img-overlay">
+              <h5 className="card-title text-center ">AJAH</h5>
             </div>
           </div>
         </div>

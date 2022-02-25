@@ -1,5 +1,5 @@
-import React from 'react'
-import Rmlogo1 from '../media/Rmlogo1'
+import React from "react";
+import Rmlogo1 from "../media/Rmlogo1.png";
 
 function Signin() {
   return (
@@ -19,4 +19,4 @@ function Signin() {
   );
 }
 
-export default Signin
+export default Signin;

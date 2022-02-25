@@ -87,16 +87,16 @@ function Navbar() {
                   Disabled
                 </a>
               </li> */}
-              <li>
-                <button className="btn btn-outline-success" type="submit">
-                  LOG IN
-                </button>
-              </li>
-              <li>
-                <button className="btn btn-outline-success" type="submit">
-                  SIGN UP
-                </button>
-              </li>
+            <li>
+              <button className="btn btn-outline-success" type="submit">
+                LOG IN
+              </button>
+            </li>
+            <li>
+              <button className="btn btn-outline-success" type="submit">
+                SIGN UP
+              </button>
+            </li>
             </ul>
           </div>
         </div>

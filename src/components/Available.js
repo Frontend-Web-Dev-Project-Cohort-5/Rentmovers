@@ -8,10 +8,10 @@ function Available() {
   return (
     <>
       <div className="p-3 mt-3">
-        <h3 className="text-center">
+        <h3 className="text-center pb-5">
           We are available in many Locations in Lagos
         </h3>
-        <div className="row">
+        <div className="row p-3">
           <div className="col card text-dark">
             <img src={Ikoyirm} className="card-img" alt="IKOYI" />
             <div className="card-img-overlay">

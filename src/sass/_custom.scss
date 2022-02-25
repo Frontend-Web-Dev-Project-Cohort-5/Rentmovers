@@ -1,11 +1,20 @@
 $myPriText: rgba(12, 12, 12);
 $mySecText: white;
 $myBtn: purple;
-$myFooterBg: brown;
+$myFooterBg: rgba(255, 134, 241, 0.727);
 
 @mixin Font {
   font-family: poppins;
   font-size: medium;
   color: $myPriText;
   font-weight: 200;
+}
+
+@mixin Footer {
+  background-color: $myFooterBg;
+  padding: 30px;
+  margin-top: 50px;
+  justify-items: center;
+ 
+  
 }

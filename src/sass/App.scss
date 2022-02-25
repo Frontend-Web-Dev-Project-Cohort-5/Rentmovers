@@ -1,5 +1,7 @@
 @use "./custom" as *;
 
-h1 {
-  @include Font;
+#FooterComponent{
+  @include Footer
+  
 }
+

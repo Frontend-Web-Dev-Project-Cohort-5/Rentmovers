@@ -1,7 +1,7 @@
-h1 {
-  font-family: poppins;
-  font-size: medium;
-  color: #0c0c0c;
-  font-weight: 200;
+#FooterComponent {
+  background-color: rgba(255, 134, 241, 0.727);
+  padding: 30px;
+  margin-top: 50px;
+  justify-items: center;
 }
 /*# sourceMappingURL=App.css.map */

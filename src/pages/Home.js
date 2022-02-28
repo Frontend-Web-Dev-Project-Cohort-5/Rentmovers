@@ -7,7 +7,6 @@ import Findbest from '../components/Findbest';
 function Home() {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
       <Available />
       <Findbest />

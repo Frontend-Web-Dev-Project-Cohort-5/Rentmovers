@@ -3,7 +3,15 @@ let Hero = () => {
     <div className="row hero11 bg-secondary container-fluid">
       <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div className="row mt-4 ms-4">
+<<<<<<< HEAD
           {/* <div className="col">
+=======
+<<<<<<< HEAD
+          <h1 className="text-light">EASY WAY TO FIND A PERFECT PROPERTY</h1>
+=======
+          {/* <div className="col">
+>>>>>>> 7b8e218944b65c9d6b5c4aadf3581c2ca5af2448
+>>>>>>> main
 
             </div> */}
           <h1 className="text-light">EASY WAY TO FIND A PERFECT PROPERTY</h1>

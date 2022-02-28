@@ -1,7 +1,63 @@
-#FooterComponent {
-  background-color: rgba(255, 134, 241, 0.727);
+#FooterMain {
+  background-color: rgba(196, 99, 255, 0.09);
   padding: 30px;
   margin-top: 50px;
-  justify-items: center;
+}
+
+#FooterSubMain {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#FooterCol1 {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+#FooterCol2 {
+  text-align: center;
+}
+
+#FooterCol3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#FooterIcons {
+  display: flex;
+}
+
+.bi {
+  padding: 15px;
+}
+
+th {
+  font-size: 30px;
+  font-weight: 900px;
+  line-height: 1rem;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 23px;
+}
+
+td {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 4rem;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.pFT {
+  font-size: medium;
+  font-weight: 17.7px;
+  color: #8F90A6;
+  text-align: justify;
 }
 /*# sourceMappingURL=App.css.map */

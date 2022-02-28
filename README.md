@@ -91,5 +91,5 @@ We encourage contributions to this project, please feel free to clone/download. 
 
 - [LSETF](https://lsetf.ng/)
 - [USADF](https://usadf.gov/)
-- [8th Gear Project Limited](https://www.8thgearpartners.com/)
+- [8th Gear Partners Limited](https://www.8thgearpartners.com/)
 - [Innkeeper Work](https://innkeeper.work/)

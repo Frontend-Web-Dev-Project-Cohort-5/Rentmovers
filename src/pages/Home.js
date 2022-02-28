@@ -1,18 +1,20 @@
 //components
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Available from "../components/Available";
-import Footer from "../components/Footer";
 
-function Home() {
+import Hero from '../components/Hero';
+import Available from '../components/Available';
+import Findbest from '../components/Findbest';
+
+import Properties from '../components/RcntAdProperties';
+
+const Home = () => {
   return (
     <>
-      <Navbar />
-      <Hero/>
-      <Available/>
-      
+      <Hero />
+      <Available />
+      <Findbest />
+      <Properties />
     </>
   );
-}
+};
 
 export default Home;

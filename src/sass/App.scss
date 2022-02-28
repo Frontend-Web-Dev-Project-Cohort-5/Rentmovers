@@ -1,0 +1,43 @@
+@use './custom' as *;
+
+#FooterMain {
+  @include FooterMain;
+}
+
+#FooterSubMain {
+  @include FooterSubMain;
+}
+
+#FooterCol1 {
+  @include FooterCol1;
+}
+
+#FooterCol2 {
+  @include FooterCol2;
+}
+
+#FooterCol3 {
+  @include FooterCol3;
+}
+#FooterIcons {
+  @include FooterIcons;
+}
+
+.bi {
+  @include BootstrapIcons;
+}
+
+th {
+  @include Th;
+}
+
+td {
+  @include td;
+}
+
+.pFT {
+  font-size: medium;
+  font-weight: 17.7px;
+  color: #8F90A6;
+  text-align: justify;
+}

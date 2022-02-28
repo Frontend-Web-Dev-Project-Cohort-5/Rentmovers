@@ -1,4 +1,3 @@
-import React from "react";
 import Ikoyirm from "../media/Ikoyirm.png";
 import Virm from "../media/virm.png";
 import lekkirm from "../media/lekkirm.png";

@@ -5,11 +5,7 @@ function Findbest() {
   return (
     <>
       <div className="card text-dark mt-4 mb-4 mx-5">
-        <img
-          src={findbest}
-          className="card-img rounded"
-          alt="find best image"
-        />
+        <img src={findbest} className="card-img rounded" alt="find best" />
         <div className="card-img-overlay">
           <h5 className="card-title">Find the best Real Estate</h5>
           <p className="card-text">

@@ -7,3 +7,4 @@ function Profile() {
 }
 
 export default Profile
+// I  suggest this page should be converted to a wishlist page

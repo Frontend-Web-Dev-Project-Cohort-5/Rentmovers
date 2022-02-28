@@ -1,14 +1,14 @@
-import Navbar from "./components/Navbar";
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Navbar from './components/Navbar';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 // import Profile from "./pages/Profile";
-import Properties from "./pages/Properties";
-import About from "./pages/About";
-import Error404 from "./pages/Error404";
-import Signin from "./pages/Signin";
-import Signup from "./pages/Signup";
-import "./sass/App.css";
-import Footer from "./components/Footer";
+import Properties from './pages/Properties';
+import About from './pages/About';
+import Error404 from './pages/Error404';
+import Signin from './pages/Signin';
+import Signup from './pages/Signup';
+import './sass/App.css';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -47,4 +47,5 @@ const App = () => {
     // </div>
   );
 };
+
 export default App;

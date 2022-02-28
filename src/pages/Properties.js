@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import RcntAdProperties from '../components/RcntAdProperties';
 
 function Properties() {
   return (
-    <div>Properties</div>
-  )
+    <div>
+      <RcntAdProperties />
+    </div>
+  );
 }
 
-export default Properties
+export default Properties;

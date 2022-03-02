@@ -1,4 +1,8 @@
 import React from 'react'
+import twittericon from '../media/twittericon.png'
+import githubicon from '../media/githubicon.png'
+import linkedinicon from '../media/linkedinicon.png'
+import bensoncj from "../media/bensoncj.png";
 
 function About() {
   return (
@@ -27,23 +31,23 @@ function About() {
       <div className="row">
         <div className="col">
           <div>
-            <img src="" alt="benson-pic" />
+            <img src={bensoncj} alt="benson-pic" />
           </div>
           <div>
-            <img src="" alt="github" />
-            <img src="" alt="linkedin" />
-            <img src="" alt="twitter" />
+            <img src={githubicon} alt="github" />
+            <img src={linkedinicon} alt="linkedin" />
+            <img src={twittericon} alt="twitter" />
           </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>
         <div className="col">
           <div>
-            <img src="" alt="benson-pic" />
+            <img src="" alt="raph-pic" />
           </div>
           <div>
-            <img src="" alt="github" />
-            <img src="" alt="linkedin" />
-            <img src="" alt="twitter" />
+            <img src={githubicon} alt="github" />
+            <img src={linkedinicon} alt="linkedin" />
+            <img src={twittericon} alt="twitter" />
           </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>
@@ -52,36 +56,36 @@ function About() {
       <div className="row">
         <div className="col">
           <div>
-            <img src="" alt="benson-pic" />
+            <img src="" alt="ayomide-pic" />
           </div>
           <div>
-            <img src="" alt="github" />
-            <img src="" alt="linkedin" />
-            <img src="" alt="twitter" />
-          </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-        </div>
-
-        <div className="col">
-          <div>
-            <img src="" alt="benson-pic" />
-          </div>
-          <div>
-            <img src="" alt="github" />
-            <img src="" alt="linkedin" />
-            <img src="" alt="twitter" />
+            <img src={githubicon} alt="github" />
+            <img src={linkedinicon} alt="linkedin" />
+            <img src={twittericon} alt="twitter" />
           </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>
 
         <div className="col">
           <div>
-            <img src="" alt="benson-pic" />
+            <img src="" alt="banjo-pic" />
           </div>
           <div>
-            <img src="" alt="github" />
-            <img src="" alt="linkedin" />
-            <img src="" alt="twitter" />
+            <img src={githubicon} alt="github" />
+            <img src={linkedinicon} alt="linkedin" />
+            <img src={twittericon} alt="twitter" />
+          </div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+
+        <div className="col">
+          <div>
+            <img src="" alt="emmanuel-pic" />
+          </div>
+          <div>
+            <img src={githubicon} alt="github" />
+            <img src={linkedinicon} alt="linkedin" />
+            <img src={twittericon} alt="twitter" />
           </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>

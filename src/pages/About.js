@@ -1,4 +1,5 @@
 import React from 'react'
+import Findbest from "../components/Findbest";
 import twittericon from '../media/twittericon.png'
 import githubicon from '../media/githubicon.png'
 import linkedinicon from '../media/linkedinicon.png'
@@ -7,13 +8,18 @@ import bensoncj from "../media/bensoncj.png";
 function About() {
   return (
     <>
-      <h3>About RentMovers</h3>
-      <p>
+    
+    <Findbest />
+
+    <div className='container p-4'>
+
+      <h3 className='text-center mt-4 mb-4'>About RentMovers</h3>
+      <p className='text-center mt-4 mb-4'>
         RentMovers is a web-app that connects homeowners to their prospective
         tenants and vice versa without the hassle of going through agents and
         moving from house to house before making their final decision.
       </p>
-      <div>
+      <div className='text-center bg-primary rounded-pill'>
         <p>
           When you are looking for a rental property, you will find that there
           are hundreds of housing companies and thousands of private landlords,
@@ -27,7 +33,7 @@ function About() {
           Easy and simple.
         </p>
       </div>
-      <h3>Meet The Team</h3>
+      <h3 className='text-center'>Meet The Team</h3>
       <div className="row">
         <div className="col">
           <div>
@@ -90,6 +96,7 @@ function About() {
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         </div>
       </div>
+    </div>
     </>
   );
 };

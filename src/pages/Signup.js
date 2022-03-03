@@ -1,5 +1,5 @@
-import React from "react";
-import Rmlogo1 from "../media/Rmlogo1.png";
+import React from 'react';
+import Rmlogo1 from '../media/Rmlogo1.png';
 
 function Signup() {
   return (

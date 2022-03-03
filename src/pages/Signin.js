@@ -1,5 +1,5 @@
-import React from "react";
-import Rmlogo1 from "../media/Rmlogo1.png";
+import React from 'react';
+import Rmlogo1 from '../media/Rmlogo1.png';
 
 function Signin() {
   return (
@@ -11,7 +11,11 @@ function Signin() {
             connect you with your clients.
           </h4>
           <br />
-          <img className="mx-auto d-block mt-5" src={Rmlogo1} alt="rentmovers logo" />
+          <img
+            className="mx-auto d-block mt-5"
+            src={Rmlogo1}
+            alt="rentmovers logo"
+          />
         </div>
 
         <div className="col p-5">

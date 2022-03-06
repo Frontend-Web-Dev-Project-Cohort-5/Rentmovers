@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Profile() {
+function DashBoard() {
   return (
-    <div>Profile</div>
+    <div>DashBoard</div>
   )
 }
 
-export default Profile
+export default DashBoard
 // I  suggest this page should be converted to a wishlist page

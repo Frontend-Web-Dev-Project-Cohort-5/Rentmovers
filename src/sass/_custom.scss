@@ -63,3 +63,37 @@ $myFooterBg: rgba(196, 99, 255, 0.09);
   text-align: left;
   padding-left: 60px;
 }
+
+@mixin textBg {
+  text-align: center;
+  padding: 60px;
+  top: 1109px;
+  border-radius: 45px;
+  background-color: #cfe7f1;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin cardTitle {
+  margin-left: 96px;
+  margin-top: 96px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin cardTitlePara {
+  margin-left: 96px;
+
+  letter-spacing: 0em;
+  text-align: left;
+  font-size: 24px;
+  font-style: normal;
+}

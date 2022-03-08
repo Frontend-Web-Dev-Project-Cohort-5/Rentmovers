@@ -52,3 +52,10 @@ td {
 .cardTitlePara {
   @include cardTitlePara;
 }
+
+#submitBtn {
+  @include submitBtn;
+}
+#submitBtn :hover {
+  @include submitBtnhover;
+}

@@ -126,9 +126,7 @@ const Footer = () => {
               </tr>
               <tr>
                 <td>
-                  <form action="https://formspree.io/f/mpzbrwqv">
-                    <Newsletter />
-                  </form>
+                  <Newsletter />
                 </td>
               </tr>
             </tbody>

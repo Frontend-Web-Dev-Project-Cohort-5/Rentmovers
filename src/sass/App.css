@@ -93,4 +93,20 @@ td {
   font-size: 24px;
   font-style: normal;
 }
+
+#submitBtn {
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #456aff;
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.631);
+  color: white;
+  font-weight: 700;
+}
+
+#submitBtn:hover {
+  border: none;
+  background-color: rgba(255, 60, 232, 0.905);
+  color: white;
+  font-weight: 900;
+}
 /*# sourceMappingURL=App.css.map */

@@ -1,6 +1,6 @@
 import React from 'react';
-import Findbest from '../components/Findbest';
 
+import EasyWay from '../components/EasyWay';
 import bensoncj from '../media/bensoncjcropped.png';
 
 import reoUndaunted from '../media/reoUndaunted.png';
@@ -10,7 +10,7 @@ import ayomidePic from '../media/ayomideAy.png';
 function About() {
   return (
     <>
-      <Findbest />
+      <EasyWay />
 
       <div className="container p-4">
         <h3 className="text-center mt-4 mb-4">About RentMovers</h3>
@@ -19,17 +19,20 @@ function About() {
           tenants and vice versa without the hassle of going through agents and
           moving from house to house before making their final decision.
         </p>
-        <div className="text-center bg-primary">
+        <div className="conttainer" id="AboutRent-Details">
           <p>
-            When you are looking for a rental property, you will find that there
-            are hundreds of housing companies and thousands of private
-            landlords, who are renting out properties. But where do you find all
-            these landlords and contacts? How do you know whether they have an
-            available rental which suits your needs? How do you stay updated
-            whenever new rentals come to the market? At RentMovers we collect
-            almost all available rental properties in one search. So it is easy
-            for you to find exactly what matches your criterias and get a new
-            home faster. As a result of that, we save you a lot of time in your
+            When you are looking for a rental property, you will find that
+            <br /> there are hundreds of housing companies and thousands of
+            <br />
+            private landlords, who are renting out properties. <br /> <br /> But
+            where do you find all these landlords and contacts? How <br />
+            do you know whether they have an available rental which <br />
+            suits your needs? How do you stay updated whenever new <br />
+            rentals come to the market? <br /> <br />
+            At RentMovers we collect almost all available rental <br />
+            properties in one search. So it is easy for you to find exactly
+            <br /> what matches your criterias and get a new home faster. <br />{' '}
+            <br /> As a result of that, we save you a lot of time in your
             housing search. Easy and simple.
           </p>
         </div>
@@ -111,6 +114,7 @@ function About() {
               website responsiveness, with tools like Figma, Sass, Bootsrap,
               Javascript, React, etc.
             </strong>
+            ``
           </div>
 
           <div className="col">

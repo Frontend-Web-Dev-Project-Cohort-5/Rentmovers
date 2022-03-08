@@ -7,8 +7,14 @@ function ContactForm() {
   }
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Email Address</label>
-      <input id="email" type="email" name="email" />
+      <label htmlFor="email"></label>
+
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="emai. e.g abc@mail.com"
+      />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       {/* <textarea
         id="message"
@@ -19,7 +25,7 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       /> */}
-      <button type="submit" disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting} >
         Submit
       </button>
     </form>

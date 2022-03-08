@@ -38,6 +38,17 @@ td {
 .pFT {
   font-size: medium;
   font-weight: 17.7px;
-  color: #8F90A6;
+  color: #8f90a6;
   text-align: justify;
+}
+
+#AboutRent-Details {
+  @include textBg;
+}
+
+.cardTitle {
+  @include cardTitle;
+}
+.cardTitlePara {
+  @include cardTitlePara;
 }

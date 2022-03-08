@@ -1,6 +1,7 @@
 import React from 'react';
 import '../sass/App.css';
 import Logo from '../media/Rmlogo1.png';
+import Newsletter from './Newsletter signup';
 
 const Footer = () => {
   return (
@@ -14,11 +15,20 @@ const Footer = () => {
             through agents, and moving from house to house before making their
             final decision.
           </p>
-          <div id="FooterIcons">
-            <i className="bi bi-facebook" href="https://facebook.com"></i>
-            <i className="bi bi-twitter" href="https://twitter.com"></i>
-            <i className="bi bi-instagram" href="https://instagram.com"></i>
-            <i className="bi bi-linkedin" href="https://linkedin.com"></i>
+          <div id="FooterIcons" style={{ icon: 'black' }}>
+            <a href="https://facebook.com">
+              <i className="bi bi-facebook" style={{ color: 'blue' }}></i>
+            </a>
+            <a href="https://twitter.com">
+              <i className="bi bi-twitter" style={{ color: 'skyblue' }}></i>
+            </a>
+
+            <a href="https://instagram.com">
+              <i className="bi bi-instagram" style={{ color: 'red' }}></i>
+            </a>
+            <a href="https://linkedin.com">
+              <i className="bi bi-linkedin" style={{ color: 'navyblue' }}></i>
+            </a>
           </div>
           <p> &copy; 2022. All rights reserved</p>
         </div>
@@ -32,16 +42,70 @@ const Footer = () => {
 
           <tbody>
             <tr>
-              <td>Features</td>
-              <td>About Us</td>
+              <td>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style={{ color: 'black' }}
+                >
+                  Features
+                </a>
+              </td>
+              <td>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/about"
+                  style={{ color: 'black' }}
+                >
+                  About Us
+                </a>
+              </td>
             </tr>
             <tr>
-              <td>Partners</td>
-              <td>Agents</td>
+              <td>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style={{ color: 'black' }}
+                >
+                  Partners
+                </a>
+              </td>
+              <td>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style={{ color: 'black' }}
+                >
+                  Agents
+                </a>
+              </td>
             </tr>
             <tr>
-              <td>Support</td>
-              <td>Contact Us</td>
+              <td>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style={{ color: 'black' }}
+                >
+                  Support
+                </a>
+              </td>
+              <td>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style={{ color: 'black' }}
+                >
+                  Contact Us
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -63,7 +127,7 @@ const Footer = () => {
               <tr>
                 <td>
                   <form action="https://formspree.io/f/mpzbrwqv">
-                    Email Address
+                    <Newsletter />
                   </form>
                 </td>
               </tr>
